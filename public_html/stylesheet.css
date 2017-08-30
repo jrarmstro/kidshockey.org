@@ -1,16 +1,29 @@
+html {
+	height: 100%;
+	font-size: 16px;
+}
+
+body {
+	margin: 0;
+	background-color: #EDD;
+}
+
 header {
 	height: 100px;
-	margin-left: auto;
-	margin-right: auto;
+	padding: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #E56A6A;
 }
 
 header img {
 	height: 100%;
 	padding: 10px;
-	float: left;
 	margin-right: 25px;
 }
 
 h1 {
 	font-size: 3em;
+	font-family: 'Montserrat', sans-serif;
 }
