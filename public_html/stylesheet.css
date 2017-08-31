@@ -5,12 +5,6 @@ html {
 	font-family: 'Roboto', sans-serif;
 }
 
-@media (max-width: 700px) {
-	html {
-		font-size: 12px;
-	}
-}
-
 body {
 	margin: 0;
 	background-color: #E2D9D9;
@@ -81,8 +75,9 @@ a {
 	box-shadow: 0 0 3px 1px gray;
 }
 
-#register, #contact, #schedule table {
+#register, #contact, .schedule {
 	flex: 1 1 calc(50% - 2*1em);
+	min-width: 250px;
 	margin: 0 1em 0 1em;
 }
 
@@ -102,22 +97,31 @@ a {
 	margin: 0;
 }
 
-#schedule table {
-	width: calc(50% - 2*0.5em);
-	border-collapse: collapse;
-	margin: 0.5em;
+.schedule {
+	margin: 1em;
 }
 
-#schedule td {
+.schedule table {
+	border-collapse: collapse;
+}
+
+.schedule table caption {
+	font-size: 1.25em;
+	font-weight: bold;
+	padding-bottom: 0.25em;
+}
+
+.schedule table th {
 	border: 1px solid black;
 	padding: 0.5em;
+	width: 1%;
+	white-space: nowrap;
+	background-color: #CEC6C6;
 }
 
-@media (min-width: 700px) {
-	#schedule td:first-child {
-		width: 1%;
-		white-space: nowrap;
-	}
+.schedule table td {
+	border: 1px solid black;
+	padding: 0.5em;
 }
 
 footer {
