@@ -93,6 +93,10 @@ a {
 	text-align: center;
 }
 
+.hidden {
+	display: none;
+}
+
 #copyright {
 	font-size: 0.75em;
 	padding: 0;
