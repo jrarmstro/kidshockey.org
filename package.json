@@ -1,0 +1,22 @@
+{
+  "name": "kchl",
+  "version": "1.0.0",
+  "description": "A simple website providing information and contact details for the Kids Christian Hockey League, a for-fun hockey league located in Brockville, Ontario.",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrarmstro/kchl.git"
+  },
+  "author": "Joel Armstrong",
+  "bugs": {
+    "url": "https://github.com/jrarmstro/kchl/issues"
+  },
+  "homepage": "https://github.com/jrarmstro/kchl#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-compass": "^1.1.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-uglify": "^3.1.0"
+  }
+}

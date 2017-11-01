@@ -1,11 +1,11 @@
 var currPartial = null;
 var dropdown = document.getElementById("schedule-dropdown");
 dropdown.onchange = function() {
-	if (currPartial != null) {
+	if (currPartial !== null) {
 		currPartial.style.display = 'none';
 	}
 	var selectedDropdown = dropdown.options[dropdown.selectedIndex];
-	if (selectedDropdown.value != "") {
+	if (selectedDropdown.value !== "") {
 		currPartial = document.querySelector("#partials>." + selectedDropdown.value);
 		currPartial.style.display = "initial";
 	}
