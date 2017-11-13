@@ -9,4 +9,4 @@ dropdown.onchange = function() {
 		currPartial = document.querySelector("#partials>." + selectedDropdown.value);
 		currPartial.style.display = "initial";
 	}
-}
+};
