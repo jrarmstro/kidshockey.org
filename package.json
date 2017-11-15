@@ -13,7 +13,10 @@
   },
   "homepage": "https://github.com/jrarmstro/kchl#readme",
   "devDependencies": {
+    "babel-preset-env": "^1.6.1",
     "grunt": "^1.0.1",
+    "grunt-babel": "^7.0.0",
+    "grunt-cleanempty": "^1.0.4",
     "grunt-contrib-clean": "^1.1.0",
     "grunt-contrib-compass": "^1.1.1",
     "grunt-contrib-copy": "^1.0.0",

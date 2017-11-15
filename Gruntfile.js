@@ -17,9 +17,9 @@ module.exports = function(grunt) {
 						expand: true,
 						cwd: 'src',
 						src: ['**',
-							  '!**/*.scss',
-							  '!src/public_html/script/*.js'],
-						dest: 'dist/'
+							  '!**/*.scss*', // ignore both .scss and .scssc
+							  '!**/*.js'],
+						dest: 'dist'
 					}
 				]
 			}
@@ -32,7 +32,7 @@ module.exports = function(grunt) {
 			build: {
 				files: [{
 					expand: true,
-					cwd: 'src',
+					cwd: 'dist',
 					src: 'public_html/script/*.js',
 					dest: 'dist'
 				}]
@@ -42,7 +42,7 @@ module.exports = function(grunt) {
 		watch: {
 			script: {
 				files: ['src/public_html/script/*.js'],
-				tasks: ['uglify']
+				tasks: ['babel', 'uglify']
 			},
 			style: {
 				files: ['src/public_html/style/*.scss'],
@@ -54,7 +54,22 @@ module.exports = function(grunt) {
 					    '!src/public_html/style/*.scss'],
 				tasks: ['copy']
 			}
-		}
+		},
+		babel: {
+			options: {
+				sourceMap: true,
+				presets: ['env']
+			},
+			dist: {
+				files: [{
+					expand: true,
+					cwd: 'src',
+					src: 'public_html/script/*.js',
+					dest: 'dist'
+				}]
+			}
+		},
+		cleanempty: ['dist/**']
 	});
 
 	grunt.loadNpmTasks('grunt-contrib-compass');
@@ -62,6 +77,8 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-clean');
 	grunt.loadNpmTasks('grunt-contrib-watch');
+	grunt.loadNpmTasks('grunt-babel');
+	grunt.loadNpmTasks('grunt-cleanempty');
 
-	grunt.registerTask('default', ['clean', 'compass', 'uglify', 'copy']);
+	grunt.registerTask('default', ['clean', 'compass', 'babel', 'uglify', 'copy', 'cleanempty']);
 };
