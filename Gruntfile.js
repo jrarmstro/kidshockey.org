@@ -6,7 +6,7 @@ module.exports = function(grunt) {
 				options: {
 					sassDir: 'src/public_html/style',
 					cssDir: 'dist/public_html/style',
-					cacheDir: 'src/public_html/style'
+					cacheDir: 'sass-cache'
 				}
 			}
 		},
@@ -42,7 +42,7 @@ module.exports = function(grunt) {
 		watch: {
 			script: {
 				files: ['src/public_html/script/*.js'],
-				tasks: ['babel', 'uglify']
+				tasks: ['babel']
 			},
 			style: {
 				files: ['src/public_html/style/*.scss'],

@@ -3,4 +3,5 @@ logs
 .idea
 node_modules
 dist
+sass-cache
 **/*.scssc
