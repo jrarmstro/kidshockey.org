@@ -1,2 +1,2 @@
-# kchl
-A simple website providing information and contact details for the Kids Christian Hockey League, a for-fun hockey league located in Brockville, Ontario.
+# KidsHockey.org
+[KidsHockey.org](http://www.kidshockey.org) is a website providing information about the Kids Christian Hockey League, a for-fun league based in Brockville, Ontario.
