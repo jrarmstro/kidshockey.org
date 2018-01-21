@@ -39,10 +39,14 @@ img
 
 #schedule
 {
-  #partials
+  img
   {
-    max-height: 100%;
-    overflow: hidden;
+    max-height: 75vh;
+    width: auto;
+    max-width: 90vw;
   }
 }
 
+footer {
+  text-align: center;
+}

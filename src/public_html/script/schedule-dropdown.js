@@ -1,14 +1,14 @@
-var currPartial = null;
-var dropdown = document.getElementById("schedule-dropdown");
+let currPartial = null;
+let dropdown = document.getElementById("schedule-dropdown");
 
 dropdown.onchange = function() {
 	if (currPartial !== null) {
 		currPartial.style.display = 'none';
 	}
 	
-	var selectedDropdown = dropdown.options[dropdown.selectedIndex];
+	let selectedDropdown = dropdown.options[dropdown.selectedIndex];
 	if (selectedDropdown.value !== "") {
-		currPartial = document.querySelector("#partials>." + selectedDropdown.value);
-		currPartial.style.display = "initial";
+		currPartial = document.querySelector(".partial." + selectedDropdown.value);
+		currPartial.style.display = 'inherit';
 	}
 };
