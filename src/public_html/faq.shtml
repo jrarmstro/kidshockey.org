@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Joel Armstrong">
+	<meta name="description" content="KCHL Frequently Asked Questions">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="keywords" content="hockey,christian,kchl,kidshockey,kids christian hockey league,brockville">
+
+	<title>FAQ - KCHL</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style/theme.css">
+
+	<!--#include file="inc/favicons.inc" -->
+
+	<!--#include file="inc/tracking.inc" -->
+</head>
+<body>
+<header>
+	<h1 class="py-3">Frequently Asked Questions</h1>
+</header>
+<main>
+	<div id="faq" class="container rounded">
+		<details>
+			<summary>Does hockey still run on a snow day?</summary>
+			Hockey always runs!
+			<br>
+			We don't cancel ice time, even if your child has a snow day.
+		</details>
+		<details>
+			<summary></summary>
+		</details>
+	</div>
+</main>
+<footer>
+	<!--#include file="inc/copyright.inc" -->
+</footer>
+</body>
+</html>

@@ -49,3 +49,20 @@ footer {
   text-align: center;
   margin-top: 1rem;
 }
+
+// FAQ accordion styling
+#faq {
+  ul {
+	list-style-position: inside;
+	padding-left: 0;
+	margin-left: 1rem;
+  }
+
+  details {
+	p {
+	  margin-left: 2rem;
+	}
+  }
+
+
+}
