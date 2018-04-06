@@ -60,11 +60,7 @@
 						<li>Learn to Skate is a 30 minute program</li>
 						<li>Full hockey equipment is required for all ages</li>
 						<li>We have equipment for sale at a very affordable price</li>
-						<details>
-							<summary>Snow days</summary>
-							<p>Hockey always runs! <br>
-							We don't cancel ice time, even if your child has a snow day.</p>
-						</details>
+						<li>We don't cancel ice time, even if your child has a snow day.</li>
 					</ul>
 				</div>
 				<div id="schedule" class="col-xs-12 col-md-6 col-lg-5 mx-auto">
