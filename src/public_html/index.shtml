@@ -57,7 +57,6 @@
 						<li>The Kids Christian Hockey League is an introductory hockey program for children ages 5 &mdash; 15</li>
 						<li>General schedule runs from early September until the end of February</li>
 						<li>One hour a week combining skills training and games</li>
-						<li>Learn to Skate is a 30 minute program</li>
 						<li>Full hockey equipment is required for all ages</li>
 						<li>We have equipment for sale at a very affordable price</li>
 						<li>We don't cancel ice time, even if your child has a snow day.</li>
@@ -70,14 +69,12 @@
 						<label for="schedule-dropdown">Partial schedules:</label>
 						<select id="schedule-dropdown">
 							<option value="" selected>Choose</option>
-							<option value="skate">Skate</option>
 							<option value="age567">Ages 5, 6, 7</option>
 							<option value="age89">Ages 8 & 9</option>
 							<option value="age101112">Ages 10, 11, 12</option>
 							<option value="age131415"> Ages 13, 14, 15</option>
 						</select>
 					</form>
-					<div class="partial hidden skate"><img src="doc/schedule%20skate.png"/></div>
 					<div class="partial hidden age567"><img src="doc/schedule%205,6,7.png"/></div>
 					<div class="partial hidden age89"><img src="doc/schedule%208,9.png"/></div>
 					<div class="partial hidden age101112"><img src="doc/schedule%2010,11,12.png"/></div>
