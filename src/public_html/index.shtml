@@ -63,8 +63,8 @@
 					</ul>
 				</div>
 				<div id="schedule" class="col-xs-12 col-md-6 col-lg-5 mx-auto">
-					<h2>Example Schedule</h2>
-					<p><a href="doc/schedule.pdf" target="_blank">Click here to view an example of a full schedule.</a></p>
+					<h2>Schedule</h2>
+					<p><a href="doc/schedule.pdf" target="_blank">Click here to view the full 2018-19 schedule.</a></p>
 					<form>
 						<label for="schedule-dropdown">Partial schedules:</label>
 						<select id="schedule-dropdown">
