@@ -54,7 +54,7 @@
 				<div id="faq" class="col-xs-12 col-md-6 col-lg-7 ml-auto">
 					<h2>FAQ</h2>
 					<ul>
-						<li>The Kids Christian Hockey League is an introductory hockey program for children ages 5 &mdash; 15</li>
+						<li>The Kids Christian Hockey League is an introductory hockey program for children ages 5 &mdash; 14</li>
 						<li>General schedule runs from early September until the end of February</li>
 						<li>One hour a week combining skills training and games</li>
 						<li>Full hockey equipment is required for all ages</li>
@@ -72,7 +72,7 @@
 							<option value="age567">Ages 5, 6, 7</option>
 							<option value="age89">Ages 8 & 9</option>
 							<option value="age101112">Ages 10, 11, 12</option>
-							<option value="age131415"> Ages 13, 14, 15</option>
+							<option value="age131415">Ages 13 & 14</option>
 						</select>
 					</form>
 					<div class="partial hidden age567"><img src="doc/schedule%205,6,7.png"/></div>
