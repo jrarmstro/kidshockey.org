@@ -64,7 +64,7 @@
 				</div>
 				<div id="schedule" class="col-xs-12 col-md-6 col-lg-5 mx-auto">
 					<h2>Schedule</h2>
-					<p><a href="doc/schedule.pdf" target="_blank">Click here to view an example schedule.</a></p>
+					<p><a href="doc/schedule.pdf" target="_blank">Click here to view the 2019-2020 schedule.</a></p>
 					<form>
 						<label for="schedule-dropdown">Partial schedules:</label>
 						<select id="schedule-dropdown">
@@ -72,13 +72,13 @@
 							<option value="age567">Ages 5, 6, 7</option>
 							<option value="age89">Ages 8 & 9</option>
 							<option value="age101112">Ages 10, 11, 12</option>
-							<option value="age131415">Ages 13 & 14</option>
+							<option value="age1314">Ages 13 & 14</option>
 						</select>
 					</form>
 					<div class="partial hidden age567"><img src="doc/schedule%205,6,7.png"/></div>
 					<div class="partial hidden age89"><img src="doc/schedule%208,9.png"/></div>
 					<div class="partial hidden age101112"><img src="doc/schedule%2010,11,12.png"/></div>
-					<div class="partial hidden age131415"><img src="doc/schedule%2013,14,15.png"/></div>
+					<div class="partial hidden age1314"><img src="doc/schedule%2013,14.png"/></div>
 				</div>
 			</div>
 		</div>
