@@ -25,62 +25,25 @@
 	</header>
 	<main>
 		<div class="container rounded">
-			<div class="row">
-				<div id="main-img" class="p-2 col-xs-12 col-lg-7 mx-auto my-auto">
-					<img src="img/hockey.jpg">
-				</div>
-				<div class="col-xs-12 col-md-6 col-lg-5 mx-auto">
-					<div id="register">
-						<h2>Register</h2>
-						<p class="lead">Registrations are open for the 2020-2021 season!</p>
-						<p>
-							Print off the <a href="doc/kchl_registration_20-21.pdf" target="_blank">registration form</a>,
-							fill it in; then email, mail, or deliver to:
-						</p>
-						<address class="mx-auto">
-							<b>Randy Hopkins</b><br>
-							<a href="https://goo.gl/maps/MDzhwp3fio32" target="_blank">54 Hillcrest Drive<br>
-								Brockville, ON<br>
-								K6V 3J4</a>
-						</address>
-					</div>
-					<div id="contact">
-						<h2>Contact Us</h2>
-            <p>Scott Neild, Brad Craig-Pettem, Randy Hopkins, Paul Armstrong</p>
-						<p>(613) 704-2230<br>
-							<a href="mailto:KidsChristianHockeyLeague@gmail.com">KidsChristian<wbr>HockeyLeague<wbr>@gmail.com</a></p>
-					</div>
-				</div>
-				<div id="faq" class="col-xs-12 col-md-6 col-lg-7 ml-auto">
-					<h2>FAQ</h2>
-					<ul>
-						<li>The Kids Christian Hockey League is an introductory hockey program for children ages 5 &mdash; 14</li>
-						<li>General schedule runs from early September until the end of February</li>
-						<li>One hour a week combining skills training and games</li>
-						<li>Full hockey equipment is required for all ages</li>
-						<li>We have equipment for sale at a very affordable price</li>
-						<li>We don't cancel ice time, even if your child has a snow day.</li>
-					</ul>
-				</div>
-				<div id="schedule" class="col-xs-12 col-md-6 col-lg-5 mx-auto">
-					<h2>Schedule</h2>
-          <p>The 2020-2021 schedule will not be released<wbr> until September 2020.
-					<p><a href="doc/schedule.pdf" target="_blank">Click here to view a sample schedule.</a></p>
-					<form>
-						<label for="schedule-dropdown">Partial schedules:</label>
-						<select id="schedule-dropdown">
-							<option value="" selected>Choose</option>
-							<option value="age567">Ages 5, 6, 7</option>
-							<option value="age89">Ages 8 & 9</option>
-							<option value="age101112">Ages 10, 11, 12</option>
-							<option value="age1314">Ages 13 & 14</option>
-						</select>
-					</form>
-					<div class="partial hidden age567"><img src="doc/schedule%205,6,7.png"/></div>
-					<div class="partial hidden age89"><img src="doc/schedule%208,9.png"/></div>
-					<div class="partial hidden age101112"><img src="doc/schedule%2010,11,12.png"/></div>
-					<div class="partial hidden age1314"><img src="doc/schedule%2013,14.png"/></div>
-				</div>
+			<div id="main-img" class="p-2 col-xs-12 col-lg-7 mx-auto my-auto">
+				<img src="img/hockey.jpg">
+			</div>
+			<div id="contact" class="col-xs-12 col-md-6 col-lg-5 mx-auto">
+				<h2>Contact Us</h2>
+				<p>Scott Neild, Brad Craig-Pettem, Randy Hopkins, Paul Armstrong</p>
+				<p>(613) 704-2230<br>
+				<a href="mailto:KidsChristianHockeyLeague@gmail.com">KidsChristian<wbr>HockeyLeague<wbr>@gmail.com</a></p>
+			</div>
+			</p>
+			<div id="address" style="margin-top: 2rem" class="col-xs-12 col-md-6 col-lg-5 mx-auto">
+				<address>
+					<b>Randy Hopkins</b><br>
+					<a href="https://goo.gl/maps/MDzhwp3fio32" target="_blank">
+						54 Hillcrest Drive<br>
+						Brockville, ON<br>
+						K6V 3J4
+					</a>
+				</address>
 			</div>
 		</div>
 	</main>
