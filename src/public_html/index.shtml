@@ -25,6 +25,13 @@
 	</header>
 	<main>
 		<div class="container rounded">
+			<div class="col-xs-12 text-center">
+				<p><b>
+					We regret to inform you that we have decided to cancel the entire 2020-21 hockey season.
+					<br>
+					Please check back in the spring of 2021 for details on next year's season.
+				</b></p>
+			</div>
 			<div id="main-img" class="p-2 col-xs-12 col-lg-7 mx-auto my-auto">
 				<img src="img/hockey.jpg">
 			</div>
