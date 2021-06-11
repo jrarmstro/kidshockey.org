@@ -15,7 +15,6 @@
 	<!--#include file="inc/favicons.inc" -->
 
 	<script defer src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-	<script defer src="script/schedule-dropdown.js" type="text/javascript" ></script>
 
 	<!--#include file="inc/tracking.inc" -->
 </head>
@@ -25,32 +24,37 @@
 	</header>
 	<main>
 		<div class="container rounded">
-			<div class="col-xs-12 text-center">
+			<div class="container p-5">
 				<p><b>
-					We regret to inform you that we have decided to cancel the entire 2020-21 hockey season.
-					<br>
-					Please check back in the spring of 2021 for details on next year's season.
+					June 3, 2021
+					<br><br>
+					Hello Kids,
+					<br><br>
+					After 25 years of Kids Christian Hockey League, we have made the difficult decision to
+					stop operations – there will be no KCHL this year or in the coming years.
+					<br><br>
+					Our work and personal lives have changed in the past two years and it has become more
+					difficult to commit the time needed to run the league.
+					<br><br>
+					We will be communicating in the coming weeks for those who would like one last exchange of
+					equipment before that part of our program is shut down as well.
+					<br><br>
+					We can’t begin to thank our coaches and volunteers from the past 25 years but we know that
+					this league would not exist without all of them/you – thank you.
+					<br><br>
+					Every year Sponsors supported our league to keep costs affordable.  Some of these Sponsors
+					were noted at various points in time during Awards events and on Sweaters.  Other Sponsors
+					wished to remain anonymous – Thank You All.
+					<br><br>
+					Finally, thank you to the 1000’s of kids who showed up at the rink ready to learn and play
+					the game.
+					<br><br>
+					Paul Armstrong / Randy Hopkins
+					<br><br>
 				</b></p>
 			</div>
 			<div id="main-img" class="p-2 col-xs-12 col-lg-7 mx-auto my-auto">
 				<img src="img/hockey.jpg">
-			</div>
-			<div id="contact" class="col-xs-12 col-md-6 col-lg-5 mx-auto">
-				<h2>Contact Us</h2>
-				<p>Scott Neild, Brad Craig-Pettem, Randy Hopkins, Paul Armstrong</p>
-				<p>(613) 704-2230<br>
-				<a href="mailto:KidsChristianHockeyLeague@gmail.com">KidsChristian<wbr>HockeyLeague<wbr>@gmail.com</a></p>
-			</div>
-			</p>
-			<div id="address" style="margin-top: 2rem" class="col-xs-12 col-md-6 col-lg-5 mx-auto">
-				<address>
-					<b>Randy Hopkins</b><br>
-					<a href="https://goo.gl/maps/MDzhwp3fio32" target="_blank">
-						54 Hillcrest Drive<br>
-						Brockville, ON<br>
-						K6V 3J4
-					</a>
-				</address>
 			</div>
 		</div>
 	</main>
